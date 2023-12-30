@@ -81,7 +81,7 @@ const CreateAccountForm: React.FC = () => {
         {'.'}
       </p>
       <Message error={error} className={classes.message} />
-       <Input
+      <Input
         name="Name"
         label="Full name"
         required
